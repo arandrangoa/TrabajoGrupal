@@ -1,0 +1,208 @@
+2023-09-04 15:07:23 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 15:07:30 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 15:07:30 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:07:52 INFO  ReservaController:41 - Registra un Cliente como Empleado
+2023-09-04 15:07:52 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:08:09 INFO  ReservaController:101 - Redirecciona a /paginas/empleado luego de registrar un Cliente
+2023-09-04 15:08:09 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 15:08:09 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:08:15 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:08:30 INFO  ReservaController:59 - Direcciona a la vistaRegistrarReserva, disponibilidad es true
+2023-09-04 15:08:34 INFO  ReservaController:81 - Registra la reserva a partir de placa,cedula,fecha inicio,fecha fin y tarjeta Credito
+2023-09-04 15:08:45 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:08:49 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 15:08:49 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:08:56 INFO  ReservaController:50 - Direcciona a la vistaPorReserva a partir de numero de reserva
+2023-09-04 15:09:00 INFO  ReservaController:93 - Cambia el estado de reserva y el estado de vehiculo
+2023-09-04 15:09:06 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:09:13 INFO  ReservaController:92 - Direcciona a la vistaListaReservas a partir de fecha inicio, fecha fin
+2023-09-04 15:09:14 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:09:15 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 15:09:17 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:09:29 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:11:14 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:11:20 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:11:22 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 15:11:24 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:11:29 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:17:06 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:15 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:16 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:17 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:17 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:17 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:17 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:18 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:18:41 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:18:46 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:19:52 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 15:19:54 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:19:58 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:20:16 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:21:18 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:21:19 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:21:23 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:22:53 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:22:58 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:23:57 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:24:29 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:25:08 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:25:20 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:25:27 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:25:37 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 15:25:39 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:25:43 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:26:44 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:26:45 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:26:46 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:26:46 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:26:47 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:27:54 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:29:30 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:29:32 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:29:38 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:10 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:12 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:44 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:45 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:46 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:46 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:47 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:47 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:47 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:33:48 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:37:10 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:39:37 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:40:39 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:41:50 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:43:21 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:43:45 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:46:37 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 15:46:39 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 15:46:43 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 15:46:46 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 15:46:46 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:46:51 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 15:48:48 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 15:49:45 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 15:49:47 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:49:54 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 15:50:18 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 15:50:21 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:50:29 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 15:50:38 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:50:45 INFO  ReservaController:92 - Direcciona a la vistaListaReservas a partir de fecha inicio, fecha fin
+2023-09-04 15:52:28 INFO  ReservaController:92 - Direcciona a la vistaListaReservas a partir de fecha inicio, fecha fin
+2023-09-04 15:53:01 INFO  ReservaController:92 - Direcciona a la vistaListaReservas a partir de fecha inicio, fecha fin
+2023-09-04 15:53:02 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 15:53:05 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 15:54:25 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 15:54:27 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:03:15 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:03:39 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:03:46 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:03:49 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:04:14 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:04:17 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:04:20 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:04:25 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 16:04:28 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:04:29 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:04:30 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:04:30 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:04:34 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 16:04:38 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:04:43 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:04:50 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:04:57 INFO  ReservaController:92 - Direcciona a la vistaListaReservas a partir de fecha inicio, fecha fin
+2023-09-04 16:05:26 INFO  ReservaController:92 - Direcciona a la vistaListaReservas a partir de fecha inicio, fecha fin
+2023-09-04 16:05:27 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:05:28 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:05:45 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:05:46 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:06:20 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:06:21 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:07:09 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:07:10 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:07:38 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:08:46 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:08:47 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:08:47 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:08:48 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:08:48 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:08:48 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:09:48 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:10:23 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:10:32 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:10:50 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:10:53 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:10:55 INFO  ReservaController:101 - Direcciona a la vistaListaClientesVip a partir de una Lista de ClienteVipDTO
+2023-09-04 16:10:56 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:11:02 INFO  ReservaController:92 - Direcciona a la vistaListaReservas a partir de fecha inicio, fecha fin
+2023-09-04 16:11:05 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:11:13 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:11:17 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:11:19 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:11:21 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:11:21 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:11:26 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 16:11:28 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:11:31 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:11:40 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:12:43 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:12:44 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:12:44 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:12:45 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:12:48 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:12:49 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:12:50 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:12:50 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:14:11 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:14:13 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:14:14 INFO  ReservaController:40 - Direcciona a la vistaReportePrincipal
+2023-09-04 16:14:15 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:14:37 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:14:42 INFO  ReservaController:70 - Direcciona a la vistaListaVehiculos a partir de marca y modelo de vehiculo
+2023-09-04 16:14:45 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:14:48 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:14:49 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:14:50 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:14:50 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:14:54 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 16:14:56 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:14:59 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:15:00 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:15:02 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:15:02 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:15:07 INFO  ReservaController:80 - Busca los vehiculos sin reserva a partir de marca y modelo
+2023-09-04 16:15:28 INFO  ReservaController:67 - Direcciona a la vistaVehiculoIndisponible, disponibilidad es false
+2023-09-04 16:16:38 INFO  ReservaController:80 - Busca los vehiculos sin reserva a partir de marca y modelo
+2023-09-04 16:16:40 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:16:42 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:16:42 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:16:49 INFO  ReservaController:80 - Busca los vehiculos sin reserva a partir de marca y modelo
+2023-09-04 16:17:51 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:17:56 INFO  ReservaController:80 - Busca los vehiculos sin reserva a partir de marca y modelo
+2023-09-04 16:17:58 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:18:15 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:18:15 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:18:26 INFO  ReservaController:80 - Busca los vehiculos sin reserva a partir de marca y modelo
+2023-09-04 16:18:58 INFO  ReservaController:80 - Busca los vehiculos sin reserva a partir de marca y modelo
+2023-09-04 16:18:59 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:19:05 INFO  ReservaController:80 - Busca los vehiculos sin reserva a partir de marca y modelo
+2023-09-04 16:19:07 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:19:13 INFO  ReservaController:50 - Direcciona a la vistaPorReserva a partir de numero de reserva
+2023-09-04 16:19:28 INFO  ReservaController:93 - Cambia el estado de reserva y el estado de vehiculo
+2023-09-04 16:20:21 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:20:25 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:20:27 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:20:27 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:20:37 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:20:40 INFO  ReservaController:26 - Direcciona a la vistaClientePrincipal
+2023-09-04 16:20:47 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:28:57 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:28:57 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:29:01 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:29:25 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:29:25 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:29:30 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa

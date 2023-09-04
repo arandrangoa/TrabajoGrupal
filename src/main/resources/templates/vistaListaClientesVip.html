@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Clientes VIP</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        body {
+            background-image: url('https://acnews.blob.core.windows.net/imgnews/large/NAZ_8bb4eb0913724ac9ac05e6b00b533763.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: rgb(0, 0, 0);
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+            color: rgb(0, 0, 0);
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(0, 0, 0);
+        }
+
+        .btn-back {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn-back a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            border: 1px solid #333;
+            border-radius: 5px;
+        }
+
+        .btn-back a:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reporte Clientes VIP</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Cédula</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Valor Subtotal</th>
+                <th>Valor Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="clientevipdto : ${clientesVipDTO}">
+                <td th:text="${clientevipdto.cedula}"></td>
+                <td th:text="${clientevipdto.nombre}"></td>
+                <td th:text="${clientevipdto.apellido}"></td>
+                <td th:text="${clientevipdto.valorSubtotal}"></td>
+                <td th:text="${clientevipdto.valorTotal}"></td>
+            </tr>
+        </tbody>
+    </table>
+ <form action="#" th:action="@{/paginas/reporte}" th:method="GET">
+		<input class="btn btn-dark" type="submit" value="Volver">
+	</form>
+</body>
+</html>

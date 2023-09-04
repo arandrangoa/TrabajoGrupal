@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Registro</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+      padding: 2px 50px;
+    }
+
+    #registrarse-btn {
+      background-color: #66bb6a;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #content {
+      padding: 20px;
+    }
+
+    .formulario {
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .formulario button {
+      background-color: #2196f3;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>Clientes</div>
+    <form th:action="@{/clientes/registroCliente}" th:method="GET">
+      <h1 style="text-align:center">
+        <button id="registrarse-btn" th:text="Registrarse">Registrarse</button>
+      </h1>
+    </form>
+    <form action="#" th:action="@{/paginas/principal}" th:method="GET">
+      <button id="registrarse-btn" th:text="Volver">Volver</button>
+    </form>
+
+  </header>
+  <div class="formulario">
+    <div>Reservar</div>
+    <form th:action="@{/reservas/guardar}" method="post">
+      <label>Placa:</label>
+      <td><input type="text" id="placa" name="placa" required></td>
+      <label>Cedula:</label>
+      <td><input type="text" id="cedula" name="cedula" required></td>
+      <label>Fecha Inicio:</label>
+      <td><input type="date" id="fechaInicio" name="fechaInicio" required></td>
+      <label>Fecha Fin:</label>
+      <td><input type="date" id="fechaFin" name="fechaFin" required></td>
+      
+      <button type="submit">Reservar</button>
+    </form>
+  </div>
+  <div id="content">
+    <div class="formulario">
+      <form th:action="@{/vehiculos/buscar}" method="get">
+        <label>Marca:</label>
+        <input type="text" name="marca">
+        <label>Modelo:</label>
+        <input type="text" name="modelo">
+        <button type="submit">Buscar</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

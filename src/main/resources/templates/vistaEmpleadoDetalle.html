@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--lenguaje en ingles -->
+<html lang="en">
+<!-- en head se configura la metadata(datos que no ve el usuario) -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <!--para decir que es una pagina web responsiva -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--titulo a nivel de pestaña -->
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <table class="table table-dark table-striped" th:object="${cliente}">
+        <tr>
+            <td><label>Cedula:</label></td>
+            <td><input type="text" id="cedula" th:field="${cliente.cedula}"></td>
+        </tr>
+        <tr>
+            <td><label>Nombre:</label></td>
+            <td><input type="text" id="nombre" th:field="${cliente.nombre}"></td>
+        </tr>
+        <tr>
+            <td><label>Apellido</label></td>
+            <td><input type="text" id="apellido" th:field="${cliente.apellido}"></td>
+        </tr>
+        <tr>
+            <td><label>Fecha Nacimiento:</label></td>
+            <td><input type="date" id="fecha_nacimiento" th:field="${cliente.fechaNacimiento}"></td>
+        </tr>
+        <tr>
+            <td><label>Género:</label></td>
+            <td><input type="text" id="genero" th:field="${cliente.genero}"></td>
+        </tr>
+        <tr>
+            <td><label>Registro:</label></td>
+            <td><input type="text" id="genero" th:field="${cliente.registro}"></td>
+        </tr>
+    </table>
+</body>
