@@ -206,3 +206,12 @@
 2023-09-04 16:29:25 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
 2023-09-04 16:29:25 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
 2023-09-04 16:29:30 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa
+2023-09-04 16:40:49 INFO  ReservaController:19 - Direcciona a la vistaPaginaPrincipal
+2023-09-04 16:40:53 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:40:54 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:41:14 INFO  ReservaController:41 - Registra un Cliente como Empleado
+2023-09-04 16:41:14 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:41:36 INFO  ReservaController:101 - Redirecciona a /paginas/empleado luego de registrar un Cliente
+2023-09-04 16:41:36 INFO  ReservaController:33 - Redirecciona al metodo /empleados/principal
+2023-09-04 16:41:36 INFO  ReservaController:33 - Direcciona a VistaEmpleadoPrincipal
+2023-09-04 16:41:41 INFO  ReservaController:42 - Direcciona a la vista vistaPorPlaca a partir de una placa

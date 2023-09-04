@@ -59,5 +59,14 @@ public class ClienteRepositoryImpl implements IClienteRepository{
 		TypedQuery<Cliente> query =this.entityManager.createQuery("Select c From Cliente c ", Cliente.class);
 		return query.getResultList();
 	}
+	
+	@Override
+	public List<Cliente> seleccionarCliente(String cedula) {
+		// TODO Auto-generated method stub
+		TypedQuery<Cliente> myQuery= this.entityManager.createQuery("Select c from Cliente c where c.cedula= :datoCedula",Cliente.class);
+		myQuery.setParameter("datoCedula", cedula);
+		
+		return myQuery.getResultList();
+	}
 
 }

@@ -11,5 +11,6 @@ public interface IClienteService {
 	public void actualizar(Cliente cliente);
 	public void borrar(Integer id);
     public List<Cliente> buscarTodos();
-
+	public List<Cliente> buscarCliente(String cedula);
+    
 }

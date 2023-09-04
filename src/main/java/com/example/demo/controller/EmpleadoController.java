@@ -1,7 +1,6 @@
 package com.example.demo.controller;
 
 import java.util.List;
-import java.util.Map;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.demo.repository.modelo.Cliente;
 import com.example.demo.repository.modelo.Vehiculo;
@@ -58,4 +58,17 @@ public class EmpleadoController {
         
         return "vistaEmpleadoDetalle";
     }
+    
+	@RequestMapping("/cliente/buscar")
+	public String buscarPorCedula(Model model) {
+		model.addAttribute("cliente", new Cliente());
+		return "vistaBuscarCliente";
+	}
+	
+	@GetMapping("/cliente/encontrado")
+	public String clienteBuscado(@RequestParam("cedula") String cedula, Model modelo) {
+		List<Cliente> clientes = this.clienteService.buscarCliente(cedula);
+		modelo.addAttribute("clientes", clientes);
+		return "vistaCliente";
+	}
 }

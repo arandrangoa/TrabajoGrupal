@@ -54,6 +54,12 @@
 			Registrar
 		</a>
 	<div id="content"></div>
+	<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample6"
+		aria-expanded="false" aria-controls="multiCollapseExample2">
+		Buscar cliente por cedula
+	</button>
+	<div id="content"></div>
+	<div id="content"></div>
 	<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
 		aria-expanded="false" aria-controls="multiCollapseExample2">
 		Buscar por Placa
@@ -110,6 +116,21 @@
 							<input type="text" class="form-control" id="placa" name="placa" aria-describedby="emailHelp"
 								required>
 							<div id="emailHelp" class="form-text">Ingrese la placa del vehiculo a buscar</div>
+							<input class="btn btn-dark" type="submit" value="Buscar">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="collapse multi-collapse" id="multiCollapseExample6">
+				<div class="card card-body">
+					<form th:action="@{/empleados/cliente/encontrado}" method="get">
+						<div class="mb-3">
+							<label for="exampleInputEmail1" class="form-label">Cedula del cliente</label>
+							<input type="text" class="form-control" id="cedula" name="cedula" aria-describedby="emailHelp"
+								required>
+							<div id="emailHelp" class="form-text">Ingrese cedula del cliente a buscar</div>
 							<input class="btn btn-dark" type="submit" value="Buscar">
 						</div>
 					</form>

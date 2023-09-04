@@ -12,5 +12,6 @@ public interface IClienteRepository {
 	
 	public Cliente seleccionarPorCedula(String cedula);
     public List<Cliente> seleccionarTodos();
-
+	public List<Cliente> seleccionarCliente(String cedula);
+    
 }

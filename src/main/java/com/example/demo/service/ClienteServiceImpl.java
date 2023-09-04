@@ -62,5 +62,11 @@ public class ClienteServiceImpl implements IClienteService{
 		// TODO Auto-generated method stub
 		return this.clienteRepository.seleccionarTodos();
 	}
+	
+	@Override
+	public List<Cliente> buscarCliente(String cedula) {
+		// TODO Auto-generated method stub
+		return this.clienteRepository.seleccionarCliente(cedula);
+	}
 
 }
